@@ -1,0 +1,18 @@
+{
+  "id": 9951830645,
+  "category": {
+    "id": 10,
+    "name": "Dog"
+  },
+  "name": "Nina",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "peluda"
+    }
+  ],
+  "status": "available"
+}

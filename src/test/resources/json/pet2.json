@@ -1,0 +1,18 @@
+{
+  "id": 9951830645,
+  "category": {
+    "id": 11,
+    "name": "Cat"
+  },
+  "name": "Tutuzinho",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "pelo curto"
+    }
+  ],
+  "status": "unavailable"
+}

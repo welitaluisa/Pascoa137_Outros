@@ -1,0 +1,53 @@
+Piramide de Teste Classica --->  se refere a uma visão do Back End
+
+Enxergar uma Piramide de Teste onde fica a camada de UI é visão de Front End
+
+Usar uma massa de teste ............> DDT = Data Driven Test = Teste direcionado por Dados
+
+
+TDD -----> Test Driven Development = Desenvolvimento Direcionado por Testes
+
+
+Você teria:
+- nome da função que vai testar, por exemplo: somarDoisNumeros
+
+- os parametros da função . Exemplo: num1 e num2, que são do tipo double
+- retorna um double
+- a informação sobre o funcionamento Ex. Seria uma soma de dois numeros
+
+Qual o beneficio?
+
+- ganha tempo, dinheiro, produtividade
+- funciona como exemplos
+
+
+Dia Passou Falhou
+
+1     0      10
+2     1      9
+3     2      8
+4     2      8
+5     4      6
+6     6      4
+
+
+----------------------------------------------------------------------------
+
+- Telas/ Página (UI): lenta, caro, complexo , quebradiço
+- Teste de Unidade:
+- teste API: Principais testes: Incluir, Consultar, Atualizar, Excluir( CRUD- Create, Read, Update, Delete)
+Post, Get, Put, Delete
+
+------------------------------------------------------------------------------
+
+LGPD - Lei Geral de Proteção de Dados
+
+- Dá o direto de ser esquecido
+
+Excluir tem 2 tipos:
+- Fisica: Apagar mesmo do banco de dados ---> Delete
+- Logico: " Desligar" o direito / cliente --> Update status
+
+
+
+
