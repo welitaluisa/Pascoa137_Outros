@@ -6,6 +6,7 @@ package apiTest;
 
 // Clasees
 
+import com.google.gson.Gson;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
@@ -17,6 +18,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.attribute.UserPrincipal;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
@@ -169,8 +171,9 @@ public class TesteUser {
 
     }
 
+    @Order(6)
     @ParameterizedTest
-    @CsvFileSource(resources = "C://Projects//Pascoa137//src//test//resources//csv//massaUser.csv", numLinesToSkip = 1, delimiter = ',')
+    @CsvFileSource(resources = "csv/massaUser.csv", numLinesToSkip = 1, delimiter = ',')
 
     public void testarIncluirUserCSV(
             String id,
@@ -185,6 +188,8 @@ public class TesteUser {
 
          // carregar oa dados do nosso json
 
+        /*
+
         StringBuilder jsonBody = new StringBuilder( "{");
         jsonBody.append( "'id':" + id + ", ");
         jsonBody.append( "'username':" + username + ", ");
@@ -195,6 +200,24 @@ public class TesteUser {
         jsonBody.append( "'phone':" + phone + ", ");
         jsonBody.append( "'userStatus':" + userStatus);
         jsonBody.append( "}");
+        */
+
+       User user =new User(); // instancia a classe User
+
+        user.id = id;
+        user.username = username;
+        user.firstName = firstName;
+        user.lastName = lastName;
+        user.email = email;
+        user.password = password;
+        user.phone = phone;
+        user.userStatus = userStatus;
+
+        Gson gson = new Gson(); // Instancia a classe Gson
+        String jsonBody = gson.toJson(user);
+
+
+
 
             // realizar o teste
         given()                                          // Dado que
