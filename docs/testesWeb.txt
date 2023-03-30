@@ -1,0 +1,32 @@
+Testes Web = Aplicações web = sites
+
+
+Automação Web
+
+- paga: Mercury QTP ----> HP -----> Borland ( Microfocus)
+
+- Open Source: Selenium ( www.selenium.dev)
+
+Permite que repita os testes web quantas vezes for necesssario
+
+- Teste de regressão
+
+- Multiplos Browser: chrome, opera, firefox, edge, safari
+- multiplos sistemas operacionais: os: windows, linux, OSX( MAC)
+- Multiplas versões de browser: Chrome ( 111), beta ( 112), alfa/canary( possibel 113)
+
+- Resolução: Multiplas
+
+Google Analytics: mostrar quais são as combinações mais usadas
+
+selenium WebDriver - começou em 2004 - hoje na versão 4.n
+
+Selenium IDE - Gravador - Surgiu 2007 / ficou estável em 2010
+
+Existem várias formas de organizar um projeto de teste web;
+- Simples ( Se IDE / Manualmente)
+
+- Selenium + Cucumber ( BDD) - Arquivo de especificação separada das fatures
+
+- Page Objects
+
