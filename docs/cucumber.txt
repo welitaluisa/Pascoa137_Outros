@@ -1,0 +1,4 @@
+- Framework para associar documentos de négocio ( .feature) como aequivo de automação
+- Plugins Gherkin e Cucumber
+- Permite que criemos especificações e critérios de aceite em Gherkin
+- Esse tipo de especificação é recomendado dentro da abordagem BDD ( Desenvolvimento Direcionado por Comportamento)
