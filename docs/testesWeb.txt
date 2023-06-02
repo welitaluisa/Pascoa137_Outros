@@ -29,4 +29,6 @@ Existem várias formas de organizar um projeto de teste web;
 - Selenium + Cucumber ( BDD) - Arquivo de especificação separada das fatures
 
 - Page Objects
+........................................................
+Sikuli ferramenta de teste baseada em reconhecimento de imagens
 
